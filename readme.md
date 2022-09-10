@@ -1,4 +1,4 @@
-# DmSelect Alpha Version
+# DmSelect Alpha Version (Searching for pulsars with phase characteristics)
 ## environment 
 Linux computer with Nvidia GPU
 > - cuda 11.0  
