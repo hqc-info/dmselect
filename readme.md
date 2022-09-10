@@ -24,7 +24,7 @@ Compile GPU code
 Use Presto test file [GBT_Lband_PSR.fil](http://www.cv.nrao.edu/~sransom/GBT_Lband_PSR.fil)  as an example
 - Preprocess with Presto
 > - rfifind -time 2 -o gbt ./GBT_Lband_PSR.fil
-- Use mask to process files and generate intermediate files. The default generated intermediate file is 0-1000$cm^{-3}pc$, and the step size is 0.1$cm^{-3}pc$. Use -dmend -dmstep to change the end DM value and step. 
+- Use mask to process files and generate intermediate files. The default generated intermediate file is 0-1000 $cm^{-3}pc$, and the step size is 0.1 $cm^{-3}pc$. Use -dmend -dmstep to change the end DM value and step. 
 > - prepdmdata -nobary -mask ./gbt_rfifind.mask -o gbt ./GBT_Lband_PSR.fil
 - Now two files are obtained, one is the data file and the other is the DM file:  gbt_td530400_96.dat, gbt_DM_All_96_10000.dm
 - Use the compiled dmselect in the app folder
