@@ -49,11 +49,11 @@ Use Presto test file [GBT_Lband_PSR.fil](http://www.cv.nrao.edu/~sransom/GBT_Lba
 - Draw DM-Frequency image with candidate folder
 > - ./DM_Frequency_draw.py ./file/gbt_td530400_96_cand_data/
 
-![DM-Frequency](./img/GBT.png)
+![DM-Frequency](https://github.com/hqc-info/dmselect/blob/main/img/GBT.png)
 - 0-500 $cm^{-3}pc$, 5-1200Hz, The contrast of different files may need to be fine tuned
 
 - Use draw.py to draw a multi-channel phase aligned image of the candidate, the generated files are saved in the image folder.
 
 > - ./draw.py ./gbt_td530400_96_cand_data/ ./image  
 
-![multi-channel phase aligned](./img/pic_216.37234_61.80.png)
+![multi-channel phase aligned](https://github.com/hqc-info/dmselect/blob/main/img/pic_216.37234_61.80.png)
