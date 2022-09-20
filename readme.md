@@ -29,7 +29,8 @@ Use Presto test file [GBT_Lband_PSR.fil](http://www.cv.nrao.edu/~sransom/GBT_Lba
 - Now two files are obtained, one is the data file and the other is the DM file:  gbt_td530400_96.dat, gbt_DM_All_96_10000.dm
 - Use the compiled dmselect in the app folder
 > - ./dmselect -cf 1 -f ./gbt_td530400_96.dat -d ./gbt_DM_All_96_10000.dm -cr 0.01 -cs 6 -scn 16
-> - ` <font color="red">Different files, -cs -scn are different. The default parameters are for FAST 4096 channel files</font>  ` 
+> - Different files, -cs -scn are different. The default parameters (128, 512) are for FAST 4096 channel files.
+> - These two parameters can affect the result of multi-channel phase aligned image, and may cause the exit of program.
 >
 > |dmselect cmd||
 > |---|---|  
